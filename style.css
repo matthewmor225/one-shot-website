@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    padding: 60px 20px;
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+/* BUTTON */
+.btn {
+    background: #00ffcc;
+    color: black;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+/* CARDS */
+.card {
+    background: rgba(0,0,0,0.45);
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 20px;
+}
+
+/* LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* TEAM */
+.team {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.person {
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.owner {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.coowner {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.admin {
+    background: linear-gradient(135deg, #f7971e, #ffd200);
+    color: black;
+}
+
+/* COMMENTS */
+.comment-box {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-box input,
+.comment-box textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.comment-box textarea {
+    height: 90px;
+    resize: none;
+}
+
+.comment-box button {
+    background: linear-gradient(90deg, #00ffcc, #00c6ff);
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comment {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    margin: 12px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    padding: 20px;
+    margin-top: 40px;
+}
